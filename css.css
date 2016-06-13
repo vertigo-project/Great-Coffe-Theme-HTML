@@ -1,0 +1,130 @@
+body
+{
+    width:950px;
+    height:100%;
+    margin-left:0;
+    margin-top:0;
+    background-color:gray;
+    margin:0 auto;
+    margin-top:25px;
+    background: url('bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor:default;
+    color:#bbe4ea;
+}
+article
+{
+    width:100%;
+    height:588px;
+    position:relative;
+}
+nav
+{
+    position:absolute;
+    bottom:0;
+    margin-bottom:180px;
+    background:rgba(66, 33, 11, 0.8);
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    width:480px;
+    height:150px;
+    font-family: 'open sans',arial,sans-serif;
+}
+footer
+{
+    position:absolute;
+    bottom:0;
+    width:900px;
+    color:#42210b;
+    font-size:11px;
+}
+a
+{
+    color:green;
+    text-decoration:none;
+}
+footer a
+{
+    color:#42210b;
+    font-weight:bold;
+    
+}
+footer a:hover { text-decoration:underline; }
+nav a
+{
+    font-size:21px;
+    color:white;
+    font-weight:bold;
+}
+nav a:hover
+{
+    color:#F5B800;
+}
+div#fullarticle
+{
+    height:100%;
+    width:100%;
+    background: url('bg-a.jpg') no-repeat;
+}
+div#innerto
+{
+    background:rgba(66, 33, 11, 0.8);
+    width:400px;
+    height:530px;
+    float:right;
+    margin:20px;
+    color:#F4F4F4;
+    display:none;
+}
+div#moreinfo
+{
+    font-size:12px;
+    padding-left:15px;
+    padding-right:15px;
+    text-indent: 20px;
+}
+div#logotype
+{
+    background: url('logotype.png') no-repeat;
+    width:64px;
+    height:64px;
+    margin-left:40px;
+    margin-top:20px;
+}
+div#sentence
+{
+    float:right;
+    font-size:10px;
+    font-weight:bold;
+    position:absolute;
+    top:0;
+    right:0;
+    padding:30px;
+}
+div#menu
+{
+    position:absolute;
+    bottom:0;
+    margin-left:70px;
+    margin-bottom:10px;
+}
+div#map
+{
+    width:350px;
+    margin:0 auto;
+    margin-top:30px;
+}
+span.separator
+{
+    color:#F4F4F4;
+    font-size:32px;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
